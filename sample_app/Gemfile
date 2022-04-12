@@ -71,6 +71,8 @@ group :test do
   gem "webdrivers"
   gem 'minitest', group: :test
   gem 'minitest-reporters', group: :test
+  gem 'guard' # NOTE: this is necessary in newer versions
+  gem 'guard-minitest'
 end
 
 group :production do
