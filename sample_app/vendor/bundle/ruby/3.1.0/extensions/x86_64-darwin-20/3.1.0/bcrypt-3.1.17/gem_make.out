@@ -1,0 +1,30 @@
+current directory: /Users/Brad.Sorour/Engine/training/ruby-on-rails-sample-app/sample_app/vendor/bundle/ruby/3.1.0/gems/bcrypt-3.1.17/ext/mri
+/usr/local/opt/ruby/bin/ruby -I /usr/local/Cellar/ruby/3.1.1/lib/ruby/3.1.0 -r ./siteconf20220414-32300-wd5vq8.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Brad.Sorour/Engine/training/ruby-on-rails-sample-app/sample_app/vendor/bundle/ruby/3.1.0/gems/bcrypt-3.1.17/ext/mri
+make DESTDIR\= clean
+
+current directory: /Users/Brad.Sorour/Engine/training/ruby-on-rails-sample-app/sample_app/vendor/bundle/ruby/3.1.0/gems/bcrypt-3.1.17/ext/mri
+make DESTDIR\=
+compiling bcrypt_ext.c
+bcrypt_ext.c:17:25: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+            NIL_P(input) ? 0 : RSTRING_LEN(input));
+                               ^~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/3.1.1/include/ruby-3.1.0/ruby/internal/core/rstring.h:52:27: note: expanded from macro 'RSTRING_LEN'
+#define RSTRING_LEN       RSTRING_LEN
+                          ^
+1 warning generated.
+compiling crypt_blowfish.c
+clang  -D__SKIP_GNU  -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+wrapper.c:182:60: warning: declaration of 'struct crypt_data' will not be visible outside of this function [-Wvisibility]
+char *crypt_r(const char *key, const char *setting, struct crypt_data *data)
+                                                           ^
+1 warning generated.
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/Brad.Sorour/Engine/training/ruby-on-rails-sample-app/sample_app/vendor/bundle/ruby/3.1.0/gems/bcrypt-3.1.17/ext/mri
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20220414-32300-1gxt93
