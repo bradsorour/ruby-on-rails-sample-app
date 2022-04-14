@@ -75,6 +75,7 @@ group :test do
   gem 'minitest-reporters', group: :test
   gem 'guard' # NOTE: this is necessary in newer versions
   gem 'guard-minitest'
+  gem 'rails-controller-testing'
 end
 
 group :production do
