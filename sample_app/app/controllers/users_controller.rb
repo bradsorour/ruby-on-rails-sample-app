@@ -13,8 +13,8 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     #debugger
     if @user.save
+      flash[:success] = "Welcome to the Sample App!"
       redirect_to @user
-      # Handle a successful save
     else
       render 'new', status: :unprocessable_entity
     end
