@@ -28,4 +28,4 @@ heroku restart
 
 * Deployment instructions
 
-* ...
+* To kill the local rails server, run the following command : `kill -9 $(lsof -i tcp:3000 -t)`
