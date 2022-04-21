@@ -26,6 +26,10 @@ heroku restart
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Deployment instructions. Before pushing to live heroku site enable maintenance on message: `heroku maintenance:on`. 
+Then run the following commands:
+- `git push heroku main`
+- `heroku run rake db:migrate`
+The turn maintenance off with `heroku maintenance:off`
 
 * To kill the local rails server, run the following command : `kill -9 $(lsof -i tcp:3000 -t)`
