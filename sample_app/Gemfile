@@ -61,6 +61,12 @@ group :development do
 
   gem "webpacker"
 
+  gem "faker"
+
+  gem "will_paginate"
+  
+  gem "bootstrap-will_paginate"
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
