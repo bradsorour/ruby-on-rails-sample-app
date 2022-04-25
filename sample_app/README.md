@@ -14,7 +14,16 @@ Available at: https://sorour-rails-sample-app.herokuapp.com/
 
 * Database creation is with `sqlite3` in development and `postgres` in production 
 
-* Database initialization. To reset the DB on production, run the following command: 
+* Database initialization. 
+
+To reset the DB locally, run the following command: 
+
+```
+rake db:migrate:reset
+rake db:seed
+```
+
+To reset the DB on production, run the following command: 
 
 ```
 heroku pg:reset --confirm sorour-rails-sample-app
@@ -30,6 +39,7 @@ heroku restart
 Then run the following commands:
 - `git push heroku main`
 - `heroku run rake db:migrate`
+- If you need to seed the db, you can run `heroku run rake db:seed`
 The turn maintenance off with `heroku maintenance:off`
 
 * To kill the local rails server, run the following command : `kill -9 $(lsof -i tcp:3000 -t)`
