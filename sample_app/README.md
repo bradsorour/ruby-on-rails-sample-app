@@ -33,3 +33,9 @@ Then run the following commands:
 The turn maintenance off with `heroku maintenance:off`
 
 * To kill the local rails server, run the following command : `kill -9 $(lsof -i tcp:3000 -t)`
+
+## Supplementary Resources
+
+### Destroy without JavaScript
+
+http://railscasts.com/episodes/77-destroy-without-javascript-revised
