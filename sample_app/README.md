@@ -40,7 +40,7 @@ Then run the following commands:
 - `git push heroku main`
 - `heroku run rake db:migrate`
 - If you need to seed the db, you can run `heroku run rake db:seed`
-The turn maintenance off with `heroku maintenance:off`
+- Then turn maintenance off with `heroku maintenance:off`
 
 * To kill the local rails server, run the following command : `kill -9 $(lsof -i tcp:3000 -t)`
 
