@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/bcrypt-3.1.17/bcrypt-3.1.17.iml" filepath="$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/bcrypt-3.1.17/bcrypt-3.1.17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/bindex-0.8.1.iml" filepath="$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/bindex-0.8.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/concurrent-ruby-1.1.10/concurrent-ruby-1.1.10.iml" filepath="$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/concurrent-ruby-1.1.10/concurrent-ruby-1.1.10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/bcrypt-3.1.17/ext/ext.iml" filepath="$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/bcrypt-3.1.17/ext/ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/msgpack-1.5.1/msgpack-1.5.1.iml" filepath="$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/msgpack-1.5.1/msgpack-1.5.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/nio4r-2.5.8/nio4r-2.5.8.iml" filepath="$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/nio4r-2.5.8/nio4r-2.5.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/puma-5.6.4/puma-5.6.4.iml" filepath="$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/puma-5.6.4/puma-5.6.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ruby-on-rails-sample-app.iml" filepath="$PROJECT_DIR$/.idea/ruby-on-rails-sample-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/websocket-driver-0.7.5.iml" filepath="$PROJECT_DIR$/sample_app/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.7.5/websocket-driver-0.7.5.iml" />
+    </modules>
+  </component>
+</project>
