@@ -1,10 +1,27 @@
 # README
 
-Ruby on Rails.
+Ruby on Rails Sample App.
 
-Currently hosted on Heroku (Puma) webserver.
+Currently hosted on Heroku (Puma) webserver here:
 
-Available at: https://sorour-rails-sample-app.herokuapp.com/
+https://sorour-rails-sample-app.herokuapp.com/
+
+This sample app covers all of the major features of Rails, including;
+
+* Models
+* Views
+* Controllers
+* Templates
+* Partials
+* Filters
+* Validations
+* Callbacks
+* Has-Many
+* Security
+* Testing
+* Deployment
+
+***
 
 * Developed with current Ruby version `ruby 3.1.1p18`. Can be checked locally by running the `ruby -v` command.
 
