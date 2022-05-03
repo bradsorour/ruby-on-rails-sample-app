@@ -2,9 +2,7 @@
 
 Ruby on Rails Sample App.
 
-Currently hosted on Heroku (Puma) webserver here:
-
-https://sorour-rails-sample-app.herokuapp.com/
+Currently hosted on Heroku (Puma) webserver here: https://sorour-rails-sample-app.herokuapp.com/
 
 This sample app covers all of the major features of Rails, including;
 
