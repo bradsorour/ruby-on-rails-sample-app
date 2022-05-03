@@ -1,2 +1,16 @@
 
-# empty
+one:
+  follower: brad
+  followed: jim
+
+two:
+  follower: brad
+  followed: sam
+
+three:
+  follower: jim
+  followed: brad
+
+four:
+  follower: john
+  followed: brad
